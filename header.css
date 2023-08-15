@@ -2,5 +2,8 @@ cabeçalho_Menu-hamburguer{width: 24 px ; height:24 px; background-image: url(..
 cabeçalho{background-color: var(--branco); display: flex;justify-content: space-between;align-items: center;position: relative;}
 container{display: flex;align-items: center;}
 container_imagem{padding:1em;}
-lista-menu {display: none; position: absolute; top: 100%;}
-container_botao:chechedlista-menu{display: block;}
+.lista-menu {display: none; position: absolute; top: 100%;width:60vw;}
+container_botao:checked~.lista-menu{display: block;}
+.lista-menu_titulo,.lista-menu_item{padding:1em;background-color:var(--branco);}
+.lista-menu_titulo{color:var(--laranja);}
+.lista-menu_link{background:var(--azul);--webkit-background-clip:text;--webkit-text-fill-color:transparent;background-clip:text;text-transform:uppercase;}
